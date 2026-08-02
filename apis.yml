@@ -1,8 +1,25 @@
 aid: tasty-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tasty-labs.png
 name: Tasty Labs
-description: Tasty Labs is a company surfaced as a portfolio company of a16z, union-square-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Tasty Labs, Inc. was a social-software development studio founded in 2010 by Joshua Schachter
+  (creator of Delicious), Nick Nguyen, and Paul Rademacher. Backed by a $3M Series A from Union
+  Square Ventures and Andreessen Horowitz (a16z), it built experimental consumer products including
+  Jig.com (a marketplace for needs), Human.io (a micro-task service), and Skills.to. The company
+  was acquired by @WalmartLabs in May 2013, with its team and technology folded into WalmartLabs;
+  the tastylabs.com domain no longer resolves. This profile is retained as a historical portfolio
+  record and exposes no public API surface, developer documentation, or specifications.
 url: https://raw.githubusercontent.com/api-evangelist/tasty-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +28,25 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by @WalmartLabs in May 2013; tastylabs.com domain no longer resolves (no DNS A record). No public API surface.
+x-founded: '2010'
+x-founders:
+- Joshua Schachter
+- Nick Nguyen
+- Paul Rademacher
+x-acquired-by: WalmartLabs
+x-acquired-date: '2013-05-14'
 specificationVersion: '0.20'
-created: '2026-07-17'
-modified: '2026-07-17'
+created: '2010-01-01'
+modified: '2026-07-21'
 tags:
 - Company
+- Social Software
+- Marketplace
+- Consumer
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,8 @@ maintainers:
 common:
 - type: Website
   url: https://tastylabs.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
