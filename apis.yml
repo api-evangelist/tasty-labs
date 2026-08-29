@@ -32,6 +32,9 @@ description: >-
   the tastylabs.com domain no longer resolves. This profile is retained as a historical portfolio
   record and exposes no public API surface, developer documentation, or specifications.
 url: https://raw.githubusercontent.com/api-evangelist/tasty-labs/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile is retained as a historical portfolio record and exposes no public API surface, developer documentation, or specifications."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
